@@ -1,0 +1,10 @@
+.addReview-modal-wrap .modal .ant-modal-content{
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.radioButton {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+

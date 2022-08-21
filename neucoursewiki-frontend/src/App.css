@@ -1,0 +1,59 @@
+.Homepage {
+  min-height: 100vh;
+  background-image: url("../public/images/background.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgb(105, 153, 225);
+}
+
+.navbar-brand.brand {
+  margin-left: 1%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-brand.brand {
+  color: rgb(3, 3, 3);
+  padding: 0;
+}
+
+.container {
+  height: 42px;
+  max-width: 2300px;
+}
+
+/* .search{
+  margin-left:48%;
+  padding-bottom: 17px;
+} */
+
+/* .row{
+  height: 18px;
+} */
+
+.nav-item {
+  padding-top: 3%;
+  padding-right: 3%;
+}
+
+.SearchBox {
+  padding-right: 30px;
+}
+
+/* media query  -->  mobiles */
+@media (max-width: 768px) {
+
+  .container {
+    height: 200px;
+  max-width: 2300px;
+  }
+
+}

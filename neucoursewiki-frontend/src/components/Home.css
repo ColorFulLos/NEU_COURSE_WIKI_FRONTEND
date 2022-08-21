@@ -1,0 +1,27 @@
+ .Title {
+     font-family: 'Caveat', cursive;
+     font-size: 7vw;
+     font-weight: 800;
+     letter-spacing: 5px;
+     color: rgb(1, 88, 142);
+     text-align: center;
+     padding-top: 10%;
+ }
+
+ .Search {
+     margin: 0 auto;
+     padding-top: 10px;
+ }
+
+ .box {
+     font-size: 35px;
+ }
+
+ /* media query  -->  tablet, mobiles */
+ @media (max-width: 768px) {
+
+     .box {
+         font-size: 10px;
+     }
+
+ }

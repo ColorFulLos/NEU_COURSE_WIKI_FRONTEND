@@ -1,0 +1,130 @@
+.leftPanel {
+    float: left;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+
+.sideNav {
+    font-family:  'Montserrat', sans-serif;
+    height:40%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 40%;
+    left: 3%;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+.sideNav a {
+    padding: 5% 7% 5% 7%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+
+
+
+
+.rightPanel {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    /* background-color: rgba(100, 100, 134, 0.297); */
+    margin-left: 10%;
+    
+}
+
+.CourseTitleBox {
+    width: 100%;
+    top: 8%;
+    position: absolute;
+    margin: auto; 
+    text-align: center;
+}
+
+.CourseTitle {
+    font-size: 50px;
+    
+}
+.ProjectBox {
+    
+    width: 75%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+
+.addProjectButton {
+    right: 27%;
+    top: 33%;
+    position: absolute
+    
+}
+.projectFilterBox {
+    display:inline-block;
+    left: 22%;
+    top:30%;
+    
+}
+h1 {
+    color: rgb(1,88,142);
+  }
+h4 {
+    color: rgb(56, 141, 194);
+    text-align: center;
+  }
+
+
+.loadmore{
+display:flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+border: 1px;
+border-style: solid;
+border-color:rgb(56, 141, 194)
+}
+
+
+.projectspage {
+    min-height: 100vh;
+    background-image: url("../../public/images/course.jpg");
+    background-size: cover;
+    background-repeat:repeat-y;
+  }
+
+  @media (max-width: 768px) {
+
+    .CourseTitle {
+        font-size: medium;
+    }
+
+
+    .sideNav a {
+      font-size: 10px;
+      color: #818181;
+  }
+
+  h4 {
+    font-size: small;
+    margin-top: 10%;
+  }
+  .addProjectButton{
+    right: 20%;
+    top: 35%;
+    
+
+}
+.projectFilterBox {
+    display:inline-block;
+    left: 16%;
+    top:35%;
+    
+}
+
+  
+}

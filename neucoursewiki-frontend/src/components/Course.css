@@ -1,0 +1,144 @@
+.column {
+  float: left;
+  padding: 10px;
+  /* height: 300px;  */
+  /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 20%;
+  height: 8vh;
+}
+
+.right {
+  width: 80%;
+  padding-left: 3%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+
+.navigation {
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight:900px; */
+  height: 35%;
+  width: 13%;
+  position: fixed;
+  z-index: 1;
+  top: 32%;
+  left: 3%;
+  background: rgba(218, 222, 230, 0.4);
+  overflow-x: hidden;
+  /* background: #eee; */
+}
+
+.navigation a {
+  padding: 5% 7% 5% 7%;
+  font-size: 22px;
+  color: #818181;
+  display: block;
+  /* text-decoration:underline; */
+}
+
+h1 {
+  color: rgb(1, 88, 142);
+}
+
+h3 {
+  color: rgb(56, 141, 194);
+}
+
+p {
+  margin-left: 0em;
+  /* height: 150px; */
+  font-size: 18px;
+  /* border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.4rem; */
+  width: 70%;
+}
+
+hr {
+  border: dotted rgb(1, 88, 142) 4px;
+  border-bottom: none;
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.IntroBox {
+  margin-top: 5%;
+}
+
+.SyllabusBox {
+  margin-top: 3%;
+}
+
+.ReviewBox {
+  margin-top: 5%;
+}
+
+/* media query  -->  tablet, mobiles */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: medium;
+  }
+
+  h3 {
+    font-size: small;
+  }
+
+  .navigation {
+
+    height: 20%;
+    top: 50%;
+  }
+
+  .navigation a {
+    font-size: 10px;
+    color: #818181;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+}
+
+.CourseReviewBox {
+  width: 70%;
+  height: 30%;
+  margin-top: 5%;
+  /* margin-left: 15%; */
+  position: relative;
+}
+
+/*Review Filter section*/
+.filterBox {
+  display: inline-block;
+  margin-right: 10px
+}
+
+.addReviewButton {
+  right: 0;
+  position: absolute;
+}
+
+.notificationBox {
+  z-index: 100;
+}
+
+.reviewCardBox {
+  margin-top: 20px;
+}
+
+.pagination {
+  margin-left: 40%;
+}
+
+.coursepage {
+  min-height: 100vh;
+  background-image: url("../../public/images/course.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+}
